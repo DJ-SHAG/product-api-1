@@ -1,0 +1,17 @@
+#%RAML 1.0
+title: product
+baseUri: http://localhost:8082/products
+/products:
+  get:
+    description: To get Products
+    responses:
+      200:
+        body:
+          application/json:
+            example :
+              {
+                "productID" : "12345" ,
+                "productName" :  "Air Frier" ,
+                "productProvider" : "Philips" ,
+                "productDescription" : "Used to fry food without Oil/Butter"
+              }
