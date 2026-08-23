@@ -137,7 +137,7 @@ output application/json
   productID: "12345",
   productName: "Air Frier",
   productProvider: "Philips",
-  productDescription: "Used to fry food without Oil/Butter from git yess improved"
+  productDescription: "Used to fry food without Oil/Butter 4.X 000000000000"
 } as Object {encoding: "UTF-8", mediaType: "application/json"}]]></ee:set-payload>
             </ee:message>
         </ee:transform>
