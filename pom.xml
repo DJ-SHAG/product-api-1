@@ -6,7 +6,7 @@
 
 	<groupId>8c0b620b-a99a-4862-b240-d6be20dce97e</groupId>
 	<artifactId>product-api</artifactId>
-	<version>1.0.6</version>
+	<version>1.0.11</version>
 	<packaging>mule-application</packaging>
 
 	<name>product-api</name>
