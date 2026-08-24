@@ -184,6 +184,8 @@
 			<id>anypoint-exchange-v3</id>
 			<name>Anypoint Exchange</name>
 			<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+			<username>${username}</username>
+			<password>${password}</password>
 			<layout>default</layout>
 		</repository>
 		<repository>
@@ -211,6 +213,8 @@
 			<id>anypoint-exchange</id>
 			<name>Anypoint Exchange</name>
 			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/8c0b620b-a99a-4862-b240-d6be20dce97e/maven</url>
+			<username>${username}</username>
+			<password>${password}</password>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
