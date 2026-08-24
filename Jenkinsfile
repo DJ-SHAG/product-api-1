@@ -26,7 +26,7 @@ pipeline {
 				
 			}
             steps {
-                bat 'mvn  clean deploy  -Pdev -Dusername="%ANYPOINT_CREDS_USR%" -Dpassword="%ANYPOINT_CREDS_PSW%" -Danypoint.platform.client_id="%CLIENT_ID%" -Danypoint.platform.client_secret="%Client_SECRET%" '
+                bat 'mvn  clean deploy  -Pdev -Dusername="%ANYPOINT_CREDS_USR%" -Dpassword="%ANYPOINT_CREDS_PSW%" -Danypoint.platform.client_id="%CLIENT_ID%" -Danypoint.platform.client_secret="%Client_SECRET%" -X '
             }
         }
 	stage('Deployment to Anypoint Runtime') {
