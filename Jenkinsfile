@@ -17,12 +17,12 @@ pipeline {
 
         stage('Deployment to Exchange') {
             steps {
-                bat 'mvn -s "C:\Users\rohan rana\.m2\settings.xml" clean deploy  -Pdev '
+                bat 'mvn -s "C:/Users/rohan rana/.m2/settings.xml" clean deploy  -Pdev '
             }
         }
 	stage('Deployment to Anypoint Runtime') {
             steps {
-                bat 'mvn -s "C:\Users\rohan rana\.m2\settings.xml" clean deploy  -Pdev -DmuleDeploy '
+                bat 'mvn -s "C:/Users/rohan rana/.m2/settings.xml" clean deploy  -Pdev -DmuleDeploy '
             }
         }
     }
